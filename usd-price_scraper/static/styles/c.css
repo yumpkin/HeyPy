@@ -1,0 +1,31 @@
+/* GENERAL STYLES */
+h1 { color: #64FF00;  background: black;	display:inline-block; font-family: 'Righteous', cursive; font-size: 65px; font-weight: normal; line-height: 60px; margin: 10px 0 20px; text-transform: uppercase; text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; text-align: center; }
+h2 { color: #FFE633;  background: black;	display:inline-block; font-family: 'Righteous', cursive; font-size: 45px; font-weight: normal; line-height: 60px; margin: 10px 0 20px; text-transform: uppercase; text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; text-align: center; }
+body {
+
+		text-align: center;
+		background: url(bg4.jpg);
+}
+
+p {
+		color: #ddd;
+		font-family: Helvetica;
+		font-size: 20px;
+		margin: 20px 0 0 0;
+}
+
+a {
+		color: #000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Helvetica;
+}
+
+
+.button-xlarge {
+            font-size: 125%;
+        }
+
+    </style>
+    <button class="button-xlarge pure-button">Extra Large Button</button>
+</div>

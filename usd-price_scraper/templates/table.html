@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Black market-USD </title>
+		
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p> Black Market Database </p>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Currency / Market</th>
+                <th>Price --> SYP</th>
+            </tr>
+			<!-- loop through the users we passed in the app. -->
+            {% for num in source %}
+                <tr>
+                    <td>{{ num[0] }}</td>
+                    <td>{{ num[1] }}</td>
+                    <td>{{ num[2] }}</td>
+                  </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
